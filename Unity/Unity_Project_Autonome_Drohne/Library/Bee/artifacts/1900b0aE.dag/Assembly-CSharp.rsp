@@ -352,6 +352,10 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 "Assets/audio_script_specialeffects.cs"
 "Assets/CameraMovement.cs"
+"Assets/living birds/demo/livingBirdsDemoScript.cs"
+"Assets/living birds/scripts/lb_Bird.cs"
+"Assets/living birds/scripts/lb_BirdController.cs"
+"Assets/living birds/scripts/lb_CrowProximity.cs"
 "Assets/Parkgarage/rotormovement.cs"
 "Assets/PathCreator/Examples/Scripts/GeneratePathExample.cs"
 "Assets/PathCreator/Examples/Scripts/PathFollower.cs"
@@ -361,6 +365,7 @@
 "Assets/PathCreator/Examples/Scripts/RoadMeshCreator.cs"
 "Assets/Rotation.cs"
 "Assets/sound_script.cs"
+"Assets/Video_script.cs"
 -langversion:9.0
 
 /deterministic
