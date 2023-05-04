@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 2560
     height: 1349
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Project
   m_RootView: {fileID: 7}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -47,7 +47,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 1
-  controlID: 85
+  controlID: 65
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -72,7 +72,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 86
+  controlID: 66
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 87
+  controlID: 118
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 88
+  controlID: 119
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -414,8 +414,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -683.5
     m_HBaseRangeMax: 683.5
-    m_VBaseRangeMin: -414
-    m_VBaseRangeMax: 414
+    m_VBaseRangeMin: -424.5
+    m_VBaseRangeMax: 424.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -432,11 +432,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 1367
-      height: 828
+      height: 849
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 683.5, y: 414}
+    m_Translation: {x: 683.5, y: 424.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -444,9 +444,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -683.5
-      y: -414
+      y: -424.5
       width: 1367
-      height: 828
+      height: 849
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1367, y: 849}
@@ -518,22 +518,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Widescreen Animations
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets
+  - Assets/Widescreen Animations
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\phili\Desktop\Projekt3_New\Unity\Unity_Project_Autonome_Drohne
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 58390500
-    m_LastClickedID: 342360
-    m_ExpandedIDs: 00000000583905007e18170000ca9a3b
+    m_SelectedIDs: 1cc30400
+    m_LastClickedID: 312092
+    m_ExpandedIDs: 000000002445000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -561,7 +561,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000058390500
+    m_ExpandedIDs: 0000000024450000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -682,9 +682,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: da722100
-      m_LastClickedID: 2192090
-      m_ExpandedIDs: 067ff1ffa68af1ff5298f1ffded7f4ffe2d7f4ffb832f9ffae5ffbffb05ffbff6ee00200bc402000fa102200e2352700
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: acfaffff6afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -795,11 +795,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.048431195, y: -0.4868897, z: 0.027049672, w: -0.8717053}
     speed: 2
-    m_Value: {x: -0.048471503, y: -0.48557943, z: 0.026976876, w: -0.8724308}
+    m_Value: {x: 0.04843119, y: 0.48688966, z: -0.02704967, w: 0.8717053}
   m_Size:
     m_Target: 3.7659085
     speed: 2
-    m_Value: 3.9433596
+    m_Value: 3.7659085
   m_Ortho:
     m_Target: 0
     speed: 2
