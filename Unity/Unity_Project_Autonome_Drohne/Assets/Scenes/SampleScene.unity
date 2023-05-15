@@ -182,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 36549350}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: Drone Parent 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6194,7 +6194,7 @@ GameObject:
   - component: {fileID: 1011418167}
   - component: {fileID: 1011418166}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Drone Parent Path Follower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6215,6 +6215,8 @@ MonoBehaviour:
   pathCreator: {fileID: 1268322767}
   endOfPathInstruction: 2
   speed: 10
+  distanceTravelled: 0
+  Rotation: {x: 0, y: 90, z: -84}
 --- !u!4 &1011418167
 Transform:
   m_ObjectHideFlags: 0
@@ -6327,8 +6329,8 @@ MonoBehaviour:
       - {x: 59.256775, y: 0.98779297, z: -1.4738159}
       - {x: 109.19815, y: -0.099609375, z: 0.004699707}
       - {x: 159.13953, y: -1.1870117, z: 1.4832153}
-      - {x: 194.17236, y: -52.300537, z: -6.8233643}
-      - {x: 203.38535, y: -52.260742, z: -6.9400024}
+      - {x: 194.17236, y: -45.115723, z: -6.8233643}
+      - {x: 203.38535, y: -54.122803, z: -6.9400024}
       isClosed: 0
       space: 0
       controlMode: 1
