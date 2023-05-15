@@ -11,6 +11,7 @@ namespace PathCreation.Examples
         public float speed = 5;
         public float distanceTravelled;
         public Vector3 Rotation = new Vector3(0f, 90f, -84f);
+        public float fixedAt = 595;
 
         void Start() {
             if (pathCreator != null)
@@ -27,8 +28,9 @@ namespace PathCreation.Examples
                 distanceTravelled += speed * Time.deltaTime;
                 transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled, endOfPathInstruction);
                 transform.rotation = pathCreator.path.GetRotationAtDistance(distanceTravelled, endOfPathInstruction);
-                if(distanceTravelled >= 593){
+                if(distanceTravelled >= fixedAt){
                     transform.rotation = Quaternion.Euler(Rotation);
+                    speed = 5;
                 }
             }
         }
