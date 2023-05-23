@@ -806,7 +806,7 @@ VideoPlayer:
   m_ControlledAudioTrackCount: 1
   m_PlayOnAwake: 1
   m_SkipOnDrop: 1
-  m_Looping: 1
+  m_Looping: 0
   m_WaitForFirstFrame: 1
   m_FrameReadyEventEnabled: 0
   m_VideoShaders: []
@@ -886,13 +886,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   VideoCLips:
-  - {fileID: 32900000, guid: d44efc59a57c8fd46a17b57ac7f01f9a, type: 3}
-  - {fileID: 32900000, guid: 6c3455bf9751a16488c0e4f4d6d78f16, type: 3}
-  - {fileID: 32900000, guid: ebf78a36def4c4e4f850afb98b75ac9f, type: 3}
+  - {fileID: 32900000, guid: 3ae60eaef3b500346938e1fe66b3b3b7, type: 3}
   clipDurations:
-  - 120
-  - 20
-  - 120
+  - 189
   clipSpeeds:
   - 1
   - 1
@@ -1938,6 +1934,7 @@ GameObject:
   - component: {fileID: 1515000273}
   - component: {fileID: 1515000272}
   - component: {fileID: 1515000271}
+  - component: {fileID: 1515000274}
   m_Layer: 0
   m_Name: Videoscreen (1)
   m_TagString: Untagged
@@ -1992,7 +1989,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 30873ad36f3edbb4785fbe6615bf5256, type: 2}
+  - {fileID: 2100000, guid: abc2f95b2f79bf7469b6640d8177486b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2022,6 +2019,28 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1515000269}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1515000274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515000269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 08fe63b9f618d974db4248f622fe4ecc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  image:
+  - {fileID: 2800000, guid: 2ec164bb9f3a73e44848fcafa3d600ee, type: 3}
+  - {fileID: 2800000, guid: 7544d9df46519094bb9f27ebd521dca5, type: 3}
+  - {fileID: 2800000, guid: 6aaf493d9832ccd41a52addded94c93f, type: 3}
+  - {fileID: 2800000, guid: f066007ca7dea814eb23928c5c9c2a40, type: 3}
+  duration:
+  - 60
+  - 10
+  - 90
+  - 30
 --- !u!1 &1545806950
 GameObject:
   m_ObjectHideFlags: 0
