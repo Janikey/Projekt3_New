@@ -265,7 +265,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -363,7 +363,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioClips:
   - {fileID: 8300000, guid: 0f44aa5ac10d347488d541a41685f222, type: 3}
+  - {fileID: 0}
   clipDurations:
+  - 240
   - 240
 --- !u!4 &147029757 stripped
 Transform:
@@ -1778,8 +1780,8 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 1
-  Mute: 1
+  Loop: 0
+  Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
   Priority: 128
@@ -1883,9 +1885,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1456958387}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4cbd58ee2949ab241af8323052af28d7, type: 3}
+  m_Script: {fileID: 11500000, guid: a95236d9e2cecbd49b72a6810812d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  audioClips:
+  - {fileID: 0}
+  - {fileID: 8300000, guid: 20d55bd10baacc14885af7c977e78471, type: 3}
+  clipDurations:
+  - 60
+  - 60
 --- !u!1 &1474588112
 GameObject:
   m_ObjectHideFlags: 0
