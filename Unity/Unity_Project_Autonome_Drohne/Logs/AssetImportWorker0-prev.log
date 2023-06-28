@@ -15,12 +15,12 @@ D:/studium/unity/git hub/Projekt3_New/Unity/Unity_Project_Autonome_Drohne
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59453
+55777
 Successfully changed project path to: D:/studium/unity/git hub/Projekt3_New/Unity/Unity_Project_Autonome_Drohne
 D:/studium/unity/git hub/Projekt3_New/Unity/Unity_Project_Autonome_Drohne
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 109.02 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 2.12 ms.
+Refreshing native plugins compatible for Editor in 2784.80 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 191.59 ms.
 Initialize engine version: 2020.3.31f1 (6b54b7616050)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/studium/unity/git hub/Projekt3_New/Unity/Unity_Project_Autonome_Drohne/Assets
@@ -35,171 +35,43 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56928
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003810 seconds.
+Registered in 0.005542 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 71.89 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.18 ms.
+Refreshing native plugins compatible for Editor in 73.93 ms, found 11 plugins.
+Preloading 1 native plugins for Editor in 0.36 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.979 seconds
+- Completed reload, in  1.018 seconds
 Domain Reload Profiling:
-	ReloadAssembly (980ms)
-		BeginReloadAssembly (118ms)
+	ReloadAssembly (1019ms)
+		BeginReloadAssembly (189ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (751ms)
-			LoadAssemblies (114ms)
+		EndReloadAssembly (723ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (217ms)
+			SetupTypeCache (204ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (280ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (287ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (72ms)
-				BeforeProcessingInitializeOnLoad (24ms)
-				ProcessInitializeOnLoadAttributes (132ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (28ms)
+				ProcessInitializeOnLoadAttributes (119ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.025072 seconds.
+Registered in 0.329532 seconds.
 Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.18 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.41 ms.
-[XR] OculusXRPlugin: registering subsystems
-[XR] Unable to retrieve XR Display Interface.
-[XR] Oculus Input lifecycle provider registered.
-[XR] Unable to register input lifecyle provider: [1]
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\studium\unity\git hub\Projekt3_New\Unity\Unity_Project_Autonome_Drohne\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\studium\unity\git hub\Projekt3_New\Unity\Unity_Project_Autonome_Drohne\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
-  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <9f01bdfe2db54f738bae09d12d90e1b8>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.914 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1916ms)
-		BeginReloadAssembly (267ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		EndReloadAssembly (1546ms)
-			LoadAssemblies (200ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (436ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (676ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
-				BeforeProcessingInitializeOnLoad (176ms)
-				ProcessInitializeOnLoadAttributes (372ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 11 plugins.
-Preloading 1 native plugins for Editor in 0.27 ms.
-Unloading 1939 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.9 MB.
-
-Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 2361.
-Total: 4.582800 ms (FindLiveObjects: 0.147400 ms CreateObjectMapping: 0.069400 ms MarkObjects: 4.215200 ms  DeleteObjects: 0.149800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/images entertainment system/iPad Rotorschaden #2.png
-  artifactKey: Guid(6aaf493d9832ccd41a52addded94c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/iPad Rotorschaden #2.png using Guid(6aaf493d9832ccd41a52addded94c93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5577207103f421ec2f34e219d9c1662a') in 0.242270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/images entertainment system/iPad Entertainment.png
-  artifactKey: Guid(2ec164bb9f3a73e44848fcafa3d600ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/iPad Entertainment.png using Guid(2ec164bb9f3a73e44848fcafa3d600ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4371d82aba22824059ced7383b7d3260') in 0.092209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/images entertainment system
-  artifactKey: Guid(8e763f9f9e7676f4db7a52185c71b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system using Guid(8e763f9f9e7676f4db7a52185c71b26d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bb050842acbe8d282af9e9c5f551e5') in 0.018915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000457 seconds.
-  path: Assets/images entertainment system/iPad Rotorschaden #1.png
-  artifactKey: Guid(7544d9df46519094bb9f27ebd521dca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/iPad Rotorschaden #1.png using Guid(7544d9df46519094bb9f27ebd521dca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f51bbdff15dcf3cf3f3d58312a36ba') in 0.098289 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/images entertainment system/iPad Landung Erfolgreich.png
-  artifactKey: Guid(f066007ca7dea814eb23928c5c9c2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/iPad Landung Erfolgreich.png using Guid(f066007ca7dea814eb23928c5c9c2a40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b020c974a35f19a3498e4e42551205') in 0.083308 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.178988 seconds.
-  path: Assets/images entertainment system/Materials
-  artifactKey: Guid(1fb163207a94b964d8dce97e1b945612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/Materials using Guid(1fb163207a94b964d8dce97e1b945612) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd481eeaf354f3514ceda76f4420f1134') in 0.020478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.194328 seconds.
-  path: Assets/images entertainment system/Materials/iPad Entertainment.mat
-  artifactKey: Guid(30873ad36f3edbb4785fbe6615bf5256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/images entertainment system/Materials/iPad Entertainment.mat using Guid(30873ad36f3edbb4785fbe6615bf5256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88cdcbf35629edd8f772d5b49891979') in 0.119367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.090767 seconds.
-  path: Assets/Widescreen Animations
-  artifactKey: Guid(0be88ba706fc9534a8039df2b1938763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Widescreen Animations using Guid(0be88ba706fc9534a8039df2b1938763) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67547b4eac21cd8a2cac11508565b589') in 0.018440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.983531 seconds.
-  path: Assets/Widescreen Animations/SinkflugDrohne.mp4
-  artifactKey: Guid(3ae60eaef3b500346938e1fe66b3b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Widescreen Animations/SinkflugDrohne.mp4 using Guid(3ae60eaef3b500346938e1fe66b3b3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a51c73abdbe6371a97ee8144133b2f') in 0.063054 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
